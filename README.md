@@ -1,1 +1,1 @@
-# file-transfer-project
+This project is a simple multithreaded client-server application for transferring files securely over a network using Python. The server handles multiple clients simultaneously and encrypts file data using AES before sending it. The client decrypts the received data and saves it locally. To run, start the server and client scripts in separate terminals, ensuring the requested file exists in the server’s directory. Both the server and client use the same encryption key for secure communication.
